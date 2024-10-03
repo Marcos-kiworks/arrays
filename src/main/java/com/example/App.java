@@ -8,7 +8,7 @@ public class App {
     public static void main( String[] args )
     {
         String marcaCoche1 = "Renault";
-        String marcaCoche1 = "BMW";
+        String marcaCoche2 = "BMW";
 
         /* ¿Que es un array? Es un identificador de variable (el nombre de una variable)
         * que hace referencia a una zona donde se pueden almacenar varios valores del mismo 
@@ -53,18 +53,23 @@ public class App {
         // Creacion del array de persona
         Persona [] personasArray = {
             Persona.builder()
-                .nombre(:"Juan")
-                .primerApellido(:"Guerrero")
-                .segundoApellido(:"Leon")
+                .nombre("Juan")
+                .primerApellido("Guerrero")
+                .segundoApellido("Leon")
                 .genero(Genero.HOMBRE)
-                .salario(salario(3500.50))
+                .salario(3500.50)
                 .build(),
             Persona.builder().nombre("Rubén").genero(Genero.HOMBRE).salario(4000.45).build(),
             Persona.builder().nombre("Margarita").genero(Genero.MUJER).salario(2400.30).build(),
             Persona.builder().nombre("Susana").genero(Genero.MUJER).salario(3000.00).build(),
         };
 
-        /* */
+        /* Recorrer los arrays
+         * 
+         * Sentencias de control de flujo (if, switch case, for clásico, for mejorado (mal llamado for each),
+         * while, do while, break, continue, y los operadores de autoincremento
+         * y autodecremento, además de los operadores lógicos)
+         */
         
 
 
